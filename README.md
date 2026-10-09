@@ -1,14 +1,14 @@
 # Đồ án Giữa kỳ - Mô phỏng lệnh ls(1)
 
 ## Thông tin sinh viên
-- **Họ và tên:** Văn Nguyễn Xuân Trường[cite: 11]
-- **Mã sinh viên:** 24IT291[cite: 11]
-- **Lớp:** 24JIT[cite: 11]
+- **Họ và tên:** Văn Nguyễn Xuân Trường
+- **Mã sinh viên:** 24IT291
+- **Lớp:** 24JIT
 - **Lớp học phần:** Lập trình hệ thống (5)
 ## Mô tả dự án
-Dự án này là một phiên bản mô phỏng lệnh `ls(1)` của hệ điều hành UNIX, được viết bằng ngôn ngữ C[cite: 11]. Chương trình tương tác trực tiếp với hệ thống tệp UNIX thông qua các lời gọi hệ thống như `opendir`, `readdir`, `lstat`, và `stat` để duyệt thư mục và trích xuất siêu dữ liệu của tệp[cite: 11]. Mã nguồn được tổ chức theo chuẩn module hóa[cite: 11].
+Dự án này là một phiên bản mô phỏng lệnh `ls(1)` của hệ điều hành UNIX, được viết bằng ngôn ngữ C[cite: 11]. Chương trình tương tác trực tiếp với hệ thống tệp UNIX thông qua các lời gọi hệ thống như `opendir`, `readdir`, `lstat`, và `stat` để duyệt thư mục và trích xuất siêu dữ liệu của tệp. Mã nguồn được tổ chức theo chuẩn module hóa.
 
-## Các tính năng đã triển khai[cite: 11]
+## Các tính năng đã triển khai
 Chương trình hoạt động chính xác theo tài liệu manual page được cung cấp, bao gồm đầy đủ 19 cờ tùy chọn[cite: 11]:
 
 | Cờ | Ý nghĩa / Chức năng |
